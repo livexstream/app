@@ -1,0 +1,83 @@
+/* Style pour la page d'accueil */
+
+.title {
+  color: #7B3FFF;
+  margin-right: 10rem;
+  font-size: 4rem;
+}
+.title-home {
+  color: #ffff;
+}
+@media only screen and (max-width: 1023px) {
+  .title {
+    margin: 1em 0;
+  }
+}
+
+.serie-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7rem;
+  margin-top: 10rem;
+}
+@media only screen and (max-width: 1023px) {
+  .serie-section {
+    grid-template-columns: 1fr 1fr;
+    margin: 1em 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .serie-section {
+    grid-template-columns: 1fr;
+  }
+}
+.serie-card {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.serie-card-link {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+.serie-name {
+  color: #ffff;
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+.serie-img {
+  height: 35rem;
+  width: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10%;
+  margin-bottom: 1em;
+  border: 0.3rem solid transparent;
+  transition: border-color 0.3s ease;
+}
+.serie-img:hover {
+  border-color: #7B3FFF;
+  border: 0.4rem solid;
+  
+}
+.serie-location {
+  color: #757575;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.serie-tagline {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.serie-rate {
+  color: #757575;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
