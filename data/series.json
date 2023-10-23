@@ -1,0 +1,595 @@
+{
+	"series": [
+		{
+			"name": "Loki",
+			"id": 243,
+			"saison": "Saison 2",
+			"country": "",
+			"tagline": "Loki reprend son rôle de dieu de la malice dans une nouvelle série qui se déroule après les événements de Avengers: Endgame.",
+			"info": "1 Ep/ semaine",
+			"portrait": "MimiKeel.jpg"
+		},
+		{
+			"name": "New Amsterdam",
+			"id": 930,
+			"saison": "Saison 5",
+			"country": "",
+			"tagline": "Un nouveau directeur médical enfreint les règles pour soigner le système dans l'hôpital public le plus ancien d'Amérique.",
+			"info": "Toute la saison disponible",
+			"portrait": "EllieRoseWilkens.jpg"
+		},
+		{
+			"name": "The Morning Show",
+			"id": 82,
+			"saison": "Saison 3",
+			"country": "",
+			"tagline": "Un aperçu de la vie des personnes qui aident les États-Unis à se réveiller le matin, explorant les défis uniques auxquels sont confrontés les hommes et les femmes qui exécutent ce rituel télévisé quotidien.",
+			"info": "Toute la saison disponible",
+			"portrait": "TracyGalindo.jpg"
+		},
+		{
+			"name": "Chair de poule (2023)",
+			"id": 527,
+			"saison": "Saison 1",
+			"country": "",
+			"tagline": "Un groupe de cinq lycéens libère des forces surnaturelles sur leur ville. Ils doivent maintenant travailler ensemble pour la sauver.",
+			"info": "2 Ep / semaine",
+			"portrait": "NabeelBradford.jpg"
+		},
+		{
+			"name": "Upload",
+			"id": 925,
+			"saison": "Saison 3",
+			"country": "",
+			"tagline": "Après sa mort prématurée, un homme peut choisir sa vie éternelle dans l'au-delà.",
+			"info": "Toute la saison disponible",
+			"portrait": "RhodeDubois.jpg"
+		},
+		{
+			"name": "Elite",
+			"id": 195,
+			"saison": "Saison 7",
+			"country": "",
+			"tagline": "Lorsque trois adolescents prolétaires s'inscrivent dans une école privée en Espagne, les conflits qui les opposent aux riches étudiants aboutissent à un meurtre.",
+			"info": "Toute la saison disponible",
+			"portrait": "MarcelNikolic.jpg"
+		}
+	],
+	"media": [
+		{
+			"id": 342550,
+			"serieId": 82,
+			"title": "Episode 1",
+			"video": "82.episode.1.mp4",
+			"likes": 62,
+			"date": "2011-12-08",
+			"saison": 3
+		},
+		{
+			"id": 8520927,
+			"serieId": 82,
+			"title": "Episode 2",
+			"video": "82.episode.1.mp4",
+			"likes": 11,
+			"date": "2011-11-06",
+			"saison": 3
+		},
+		{
+			"id": 9025895,
+			"serieId": 82,
+			"title": "Episode 3",
+			"video": "82.episode.1.mp4",
+			"likes": 72,
+			"date": "2013-08-12",
+			"saison": 3
+		},
+		{
+			"id": 9275938,
+			"serieId": 82,
+			"title": "Episode 4",
+			"video": "82.episode.1.mp4",
+			"likes": 69,
+			"date": "2018-02-22",
+			"saison": 3
+		},
+		{
+			"id": 2053494,
+			"serieId": 82,
+			"title": "Episode 5",
+			"video": "82.episode.1.mp4",
+			"likes": 2,
+			"date": "2020-05-25",
+			"saison": 3
+		},
+		{
+			"id": 7324238,
+			"serieId": 82,
+			"title": "Episode 6",
+			"video": "82.episode.1.mp4",
+			"likes": 33,
+			"date": "2019-06-12",
+			"saison": 3
+		},
+		{
+			"id": 8328953,
+			"serieId": 82,
+			"title": "Episode 7",
+			"video": "82.episode.1.mp4",
+			"likes": 24,
+			"date": "2011-12-08",
+			"saison": 3
+		  },
+		{
+			"id": 7502053,
+			"serieId": 82,
+			"title": "Episode 8",
+			"video": "82.episode.1.mp4",
+			"likes": 88,
+			"date": "2007-05-07",
+			"saison": 3
+		},
+		{
+			"id": 8523492,
+			"serieId": 82,
+			"title": "Episode 9",
+			"video": "82.episode.1.mp4",
+			"likes": 24,
+			"date": "2018-05-05",
+			"saison": 3
+		},
+		{
+			"id": 75902334,
+			"serieId": 82,
+			"title": "Episode 10 (final)",
+			"video": "82.episode.1.mp4",
+			"likes": 75,
+			"date": "2019-11-25",
+			"saison": 3
+		},
+
+		{
+			"id": 73852953,
+			"serieId": 925,
+			"title": "Episode 1",
+			"video": "925.episode.1.mp4",
+			"likes": 52,
+			"date": "2013-02-30",
+			"saison": 3
+		},
+		{
+			"id": 92758372,
+			"serieId": 925,
+			"title": "Episode 2",
+			"video": "925.episode.1.mp4",
+			"likes": 58,
+			"date": "2018-07-17",
+			"saison": 3
+		},
+		{
+			"id": 32958383,
+			"serieId": 925,
+			"title": "Episode 3",
+			"video": "925.episode.1.mp4",
+			"likes": 11,
+			"date": "2019-08-12",
+			"saison": 3
+		},
+		{
+			"id": 928587383,
+			"serieId": 925,
+			"title": "Episode 4",
+			"video": "925.episode.1.mp4",
+			"likes": 2,
+			"date": "2019-01-02",
+			"saison": 3
+		},
+		{
+			"id": 725639493,
+			"serieId": 925,
+			"title": "Episode 5",
+			"video": "925.episode.1.mp4",
+			"likes": 3,
+			"date": "2019-05-20",
+			"saison": 3
+		},
+		{
+			"id": 23394384,
+			"serieId": 925,
+			"title": "Episode 6",
+			"video": "925.episode.1.mp4",
+			"likes": 52,
+			"date": "2019-07-18",
+			"saison": 3
+		},
+		{
+			"id": 87367293,
+			"serieId": 925,
+			"title": "Episode 7",
+			"video": "925.episode.1.mp4",
+			"likes": 23,
+			"date": "2018-02-22",
+			"saison": 3
+		},
+		{
+			"id": 593834784,
+			"serieId": 925,
+			"title": "Episode 8",
+			"video": "925.episode.1.mp4",
+			"likes": 52,
+			"date": "2017-03-13",
+			"saison": 3
+		},
+		{
+			"id": 83958935,
+			"serieId": 925,
+			"title": "Episode 9 (final)",
+			"video": "925.episode.1.mp4",
+			"likes": 52,
+			"date": "2016-06-12",
+			"saison": 3
+		},
+		{
+			"id": 394583434,
+			"serieId": 527,
+			"title": "Episode 1",
+			"video": "527.episode.1.mp4",
+			"likes": 23,
+			"date": "2017-03-18",
+			"saison": 1
+		},
+		{
+			"id": 343423425,
+			"serieId": 527,
+			"title": "Episode 2",
+			"video": "527.episode.1.mp4",
+			"likes": 101,
+			"date": "2017-04-03",
+			"saison": 1
+		},
+		{
+			"id": 73434243,
+			"serieId": 527,
+			"title": "Episode 3",
+			"video": "527.episode.1.mp4",
+			"likes": 99,
+			"date": "2018-04-30",
+			"saison": 1
+		},
+		{
+			"id": 23425523,
+			"serieId": 527,
+			"title": "Episode 4",
+			"video": "527.episode.1.mp4",
+			"likes": 34,
+			"date": "2016-04-05",
+			"saison": 1
+		},
+		{
+			"id": 23134513,
+			"serieId": 527,
+			"title": "Episode 5",
+			"video": "527.episode.1.mp4",
+			"likes": 23,
+			"date": "2017-03-18",
+			"saison": 1
+		},
+		{
+			"id": 92352352,
+			"serieId": 527,
+			"title": "Episode 6",
+			"video": "527.episode.1.mp4",
+			"likes": 66,
+			"date": "2018-05-24",
+			"saison": 1
+		},
+		{
+			"id": 34513453,
+			"serieId": 527,
+			"title": "Episode 7",
+			"video": "527.episode.1.mp4",
+			"likes": 52,
+			"date": "2017-04-21",
+			"saison": 1
+		},
+		{
+			"id": 23523533,
+			"serieId": 527,
+			"title": "Episode 8",
+			"video": "527.episode.1.mp4",
+			"likes": 95,
+			"date": "2018-11-02",
+			"saison": 1
+		},
+		{
+			"id": 525834234,
+			"serieId": 527,
+			"title": "Episode 9 (final)",
+			"video": "527.episode.1.mp4",
+			"likes": 25,
+			"date": "2019-01-02",
+			"saison": 1
+		},
+
+		{
+			"id": 623534343,
+			"serieId": 243,
+			"title": "Episode 1",
+			"video": "243.episode.1.mp4",
+			"likes": 88,
+			"date": "2019-02-03",
+			"saison": 2
+		},
+		{
+			"id": 625025343,
+			"serieId": 243,
+			"title": "Episode 2",
+			"video": "243.episode.1.mp4",
+			"likes": 85,
+			"date": "2019-04-03",
+			"saison": 2
+		},
+		{
+			"id": 2525345343,
+			"serieId": 243,
+			"title": "Episode 3",
+			"video": "243.episode.1.mp4",
+			"likes": 34,
+			"date": "2019-04-07",
+			"saison": 2
+		},
+		{
+			"id": 2523434634,
+			"serieId": 243,
+			"title": "Episode 4",
+			"video": "243.episode.1.mp4",
+			"likes": 63,
+			"date": "2019-04-07",
+			"saison": 2
+		},
+		{
+			"id": 398847109,
+			"serieId": 243,
+			"title": "Episode 5",
+			"video": "243.episode.1.mp4",
+			"likes": 55,
+			"date": "2019-06-20",
+			"saison": 2
+		},
+		{
+			"id": 2534342,
+			"serieId": 243,
+			"title": "Episode 6",
+			"video": "243.episode.1.mp4",
+			"likes": 25,
+			"date": "2019-06-21",
+			"saison": 2
+		},
+		{
+			"id": 65235234,
+			"serieId": 243,
+			"title": "Episode 7",
+			"video": "243.episode.1.mp4",
+			"likes": 52,
+			"date": "2019-06-25",
+			"saison": 2
+		},
+		{
+			"id": 23523434,
+			"serieId": 243,
+			"title": "Episode 8",
+			"video": "243.episode.1.mp4",
+			"likes": 77,
+			"date": "2019-06-28",
+			"saison": 2
+		},
+		{
+			"id": 5234343,
+			"serieId": 243,
+			"title": "Episode 9",
+			"video": "243.episode.1.mp4",
+			"likes": 142,
+			"date": "2019-08-23",
+			"saison": 2
+		  },
+		{
+			"id": 95234343,
+			"serieId": 243,
+			"title": "Episode 10 (final)",
+			"video": "243.episode.1.mp4",
+			"likes": 59,
+			"date": "2019-07-02",
+			"saison": 2
+		},
+
+		{
+			"id": 52343416,
+			"serieId": 195,
+			"title": "Episode 1",
+			"video": "195.episode.1.mp4",
+			"likes": 25,
+			"date": "2019-04-03",
+			"saison": 7
+		},
+		{
+			"id": 2523434,
+			"serieId": 195,
+			"title": "Episode 2",
+			"video": "195.episode.1.mp4",
+			"likes": 53,
+			"date": "2019-05-06",
+			"saison": 7
+		},
+		{
+			"id": 95293534,
+			"serieId": 195,
+			"title": "Episode 3",
+			"video": "195.episode.1.mp4",
+			"likes": 33,
+			"date": "2019-05-12",
+			"saison": 7
+		},
+		{
+			"id": 356234343,
+			"serieId": 195,
+			"title": "Episode 4",
+			"video": "195.episode.1.mp4",
+			"likes": 53,
+			"date": "2019-06-20",
+			"saison": 7
+		},
+		{
+			"id": 235234343,
+			"serieId": 195,
+			"title": "Episode 5",
+			"video": "195.episode.1.mp4",
+			"likes": 63,
+			"date": "2019-06-26",
+			"saison": 7
+		},
+		{
+			"id": 6234234343,
+			"serieId": 195,
+			"title": "Episode 6",
+			"video": "195.episode.1.mp4",
+			"likes": 52,
+			"date": "2019-06-30",
+			"saison": 7
+		},
+		{
+			"id": 6525666253,
+			"serieId": 195,
+			"title": "Episode 7",
+			"video": "195.episode.1.mp4",
+			"likes": 63,
+			"date": "2019-07-20",
+			"saison": 7
+		},
+		{
+			"id": 919552523433,
+			"serieId": 195,
+			"title": "Episode 8",
+			"video": "195.episode.1.mp4",
+			"likes": 88,
+			"date": "2020-01-05",
+			"saison": 7
+		},
+		{
+			"id": 9259398453,
+			"serieId": 195,
+			"title": "Episode 9",
+			"video": "195.episode.1.mp4",
+			"likes": 57,
+			"date": "2020-01-20",
+			"saison": 7
+		  },
+		{
+			"id": 3523523534,
+			"serieId": 195,
+			"title": "Episode 10 (final)",
+			"video": "195.episode.1.mp4",
+			"likes": 54,
+			"date": "2020-05-05",
+			"saison": 7
+		},
+		{
+			"id": 952343423,
+			"serieId": 930,
+			"title": "Episode 1",
+			"video": "930.episode.1.mp4",
+			"likes": 150,
+			"date": "2018-02-30",
+			"saison": 5
+		  },
+		{
+			"id": 235234343,
+			"serieId": 930,
+			"title": "Episode 2",
+			"video": "930.episode.1.mp4",
+			"likes": 101,
+			"date": "2018-03-05",
+			"saison": 5
+		},
+		{
+			"id": 235343222,
+			"serieId": 930,
+			"title": "Episode 3",
+			"video": "930.episode.1.mp4",
+			"likes": 103,
+			"date": "2018-03-10",
+			"saison": 5
+		},
+		{
+			"id": 7775342343,
+			"serieId": 930,
+			"title": "Episode 4",
+			"video": "930.episode.1.mp4",
+			"likes": 77,
+			"date": "2018-04-16",
+			"saison": 5
+		},
+		{
+			"id": 9253445784,
+			"serieId": 930,
+			"title": "Episode 5",
+			"video": "930.episode.1.mp4",
+			"likes": 88,
+			"date": "2018-04-22",
+			"saison": 5
+		},
+		{
+			"id": 22299394,
+			"serieId": 930,
+			"title": "Episode 6",
+			"video": "930.episode.1.mp4",
+			"likes": 95,
+			"date": "2018-04-27",
+			"saison": 5
+		},
+		{
+			"id": 3452342633,
+			"serieId": 930,
+			"title": "Episode 7",
+			"video": "930.episode.1.mp4",
+			"likes": 52,
+			"date": "2018-05-03",
+			"saison": 5
+		},
+		{
+			"id": 939234243,
+			"serieId": 930,
+			"title": "Episode 8",
+			"video": "930.episode.1.mp4",
+			"likes": 55,
+			"date": "2018-05-10",
+			"saison": 5
+		},
+		{
+			"id": 222959233,
+			"serieId": 930,
+			"title": "Episode 9",
+			"video": "930.episode.1.mp4",
+			"likes": 85,
+			"date": "2018-05-15",
+			"saison": 5
+		},
+		{
+			"id": 965933434,
+			"serieId": 930,
+			"title": "Episode 10",
+			"video": "930.episode.1.mp4",
+			"likes": 66,
+			"date": "2018-05-20",
+			"saison": 5
+		},
+		{
+			"id": 777723343,
+			"serieId": 930,
+			"title": "Episode 11 (final)",
+			"video": "930.episode.1.mp4",
+			"likes": 79,
+			"date": "2018-05-21",
+			"saison": 5
+			
+		}
+	]
+}
