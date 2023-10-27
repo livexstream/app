@@ -11,8 +11,8 @@ if (isElectron) {
       const imageElement = document.createElement('img');
       imageElement.src = 'assets/icons/download-app.png';
       imageElement.alt = 'Télécharger sur macOs';
-      imageElement.width = 75;
-      imageElement.height = 75;
+      imageElement.width = 100;
+      imageElement.height = 100;
 
       // Créez un lien de téléchargement
       const downloadLink = document.createElement('a');
