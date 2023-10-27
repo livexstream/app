@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-    <title>Redirection</title>
+  <meta charset="utf-8">
+  <title>Stream - Séries streaming</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stream - Séries streaming">
+  <link rel="icon" type="image/png" href="assets/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
+
 <body>
-    <script>
-        // Redirection vers webhome.html
-        window.location.href = 'webhome.html';
-    </script>
+  <header class="header">
+    <a class="header-link" href="./index.html" aria-label="Lien vers la page d'accueil">
+      <img src="assets/images/logo.png" class="header-logo" alt="Fisheye Logo">
+    </a>
+    <h1 class="title"><span class="title-home">Bienvenue sur</span> Stream</h1>
+  <div id="download-container"></div>
+  </header>
+  <main id="main">
+    <div class="serie-section"></div>
+  </main>
+  <script type="module" src="scripts/pages/index.js"></script>
 </body>
+
 </html>
