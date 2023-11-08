@@ -16,8 +16,7 @@ if (isElectron) {
 
       // Créez un lien de téléchargement
       const downloadLink = document.createElement('a');
-      downloadLink.href = 'Stream-1.0.1.dmg.zip';
-      downloadLink.download = 'Stream-1.0.1.dmg.zip'; // Nom du fichier à télécharger
+      downloadLink.href = 'https://mega.nz/file/eVIRAbTL#9ULA-4sd3AeN5c6fksNLIMF8-h0aiJS78z-qhvQVtHw';
       downloadLink.appendChild(imageElement);
 
       // Ajoutez le lien au conteneur
