@@ -12,7 +12,7 @@ export function mediaFactory(data) {
       article.innerHTML = `
         <button class="media-card-button" aria-label="Bouton d'ouverture de lightbox">
           <video class="media-card-video" title="${title}" poster="assets/images/${serieId}/${image}">
-            <source src="assets/images/${serieId}/${video}" type="video/mp4">
+            <source src="data/videos/${serieId}/${video}" type="video/mp4">
           </video>
         </button>
         <section class "media-card-info">
