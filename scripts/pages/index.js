@@ -22,7 +22,7 @@ if (isElectron) {
 
       // Créez un lien de téléchargement
       const downloadLinkMac = document.createElement('a');
-      downloadLinkMac.href = 'https://mega.nz/file/eVIRAbTL#9ULA-4sd3AeN5c6fksNLIMF8-h0aiJS78z-qhvQVtHw';
+      downloadLinkMac.href = 'https://mega.nz/file/eEwCCAjK#0scaC9tJ9hfNhR-cqV1W-cB6aAwAuzAk1viLK6CbmVU';
       downloadLinkMac.appendChild(imageElementMac);
 
       const downloadLinkWindows = document.createElement('a');
