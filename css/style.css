@@ -104,7 +104,9 @@ main {
     margin: 1em 0;
   }
 }
-
+#download-container {
+  display: flex;
+}
 dialog {
   border: none;
 }
