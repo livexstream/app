@@ -8,19 +8,30 @@ if (isElectron) {
   const downloadContainer = document.getElementById('download-container');
   if (downloadContainer) {
       // Créez un élément d'image
-      const imageElement = document.createElement('img');
-      imageElement.src = 'assets/icons/download-app.png';
-      imageElement.alt = 'Télécharger sur macOs';
-      imageElement.width = 100;
-      imageElement.height = 100;
+      const imageElementMac = document.createElement('img');
+      imageElementMac.src = 'assets/icons/download-app-mac.png';
+      imageElementMac.alt = 'Télécharger sur macOs';
+      imageElementMac.width = 100;
+      imageElementMac.height = 100;
+
+      const imageElementWindows = document.createElement('img');
+      imageElementWindows.src = 'assets/icons/download-app-windows.png';
+      imageElementWindows.alt = 'Télécharger sur windows';
+      imageElementWindows.width = 100;
+      imageElementWindows.height = 100;
 
       // Créez un lien de téléchargement
-      const downloadLink = document.createElement('a');
-      downloadLink.href = 'https://mega.nz/file/eVIRAbTL#9ULA-4sd3AeN5c6fksNLIMF8-h0aiJS78z-qhvQVtHw';
-      downloadLink.appendChild(imageElement);
+      const downloadLinkMac = document.createElement('a');
+      downloadLinkMac.href = 'https://mega.nz/file/eVIRAbTL#9ULA-4sd3AeN5c6fksNLIMF8-h0aiJS78z-qhvQVtHw';
+      downloadLinkMac.appendChild(imageElementMac);
+
+      const downloadLinkWindows = document.createElement('a');
+      downloadLinkWindows.href = 'https://mega.nz/file/GVIkWRbJ#t5FC1Dp3rGTPsASmb2S6W6unAFW3bm58z4Urbv6MYJQ'
+      downloadLinkWindows.appendChild(imageElementWindows);
 
       // Ajoutez le lien au conteneur
-      downloadContainer.appendChild(downloadLink);
+      downloadContainer.appendChild(downloadLinkMac);
+      downloadContainer.appendChild(downloadLinkWindows);
   }
 }
 
