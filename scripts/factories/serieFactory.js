@@ -3,7 +3,7 @@ export function serieFactory(data) {
     const { name, id, saison, country, tagline, info, portrait } = data;
   
     // Création du chemin pour l'image portrait
-    const picture = `assets/series/${portrait}`;
+    const picture = `data/series/${portrait}`;
   
     // Défini une fonction qui renverra un élément DOM pour la carte du photographe
     function getSerieCardDOM() {

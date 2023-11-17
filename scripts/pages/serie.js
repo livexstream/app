@@ -23,7 +23,7 @@ function renderPhotographHeader(object) {
         <h1 class="photograph-name">${name}</h1>
         <p class="photograph-tagline">${tagline}</p>
       </div>
-      <img class="photograph-img" src="assets/series/${portrait}" alt="Photo de ${name}">
+      <img class="photograph-img" src="data/series/${portrait}" alt="Photo de ${name}">
     </section>
   `;//<p class="photograph-location">${saison}, ${country}</p>
   //<button class="button" id="contactBtn" aria-label="Bouton d'ouverture du modal de contact">Aide</button>
@@ -148,7 +148,7 @@ async function renderLightBoxMedia(mediaId) {
   // Si le média est une image, ajoute le code HTML de la carte média approprié à l'élément lightboxMedia
   if (image) {
     lightboxMedia.innerHTML = `
-      <img class="lightbox-img" src="assets/images/${serieId}/${image}" alt="${title}">
+      <img class="lightbox-img" src="data/media/${serieId}/${image}" alt="${title}">
       <figcaption class="lightbox-caption">${title}</figcaption>
   `;
   }
@@ -157,7 +157,7 @@ async function renderLightBoxMedia(mediaId) {
   if (video) {
     lightboxMedia.innerHTML = `
       <video class="lightbox-video" title="${title}" controls>
-        <source src="assets/images/${serieId}/${video}" type="video/mp4">
+        <source src="data/media/${serieId}/${video}" type="video/mp4">
       </video>
       <figcaption class="lightbox-caption">${title}</figcaption>
   `;

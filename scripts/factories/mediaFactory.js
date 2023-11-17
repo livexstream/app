@@ -11,8 +11,8 @@ export function mediaFactory(data) {
     if (isElectron && video) {
       article.innerHTML = `
         <button class="media-card-button" aria-label="Bouton d'ouverture de lightbox">
-          <video class="media-card-video" title="${title}" poster="assets/images/${serieId}/${image}">
-            <source src="data/videos/${serieId}/${video}" type="video/mp4">
+          <video class="media-card-video" title="${title}" poster="data/media/${serieId}/${image}"> 
+          <source src="data/media/${serieId}/${video}" type="video/mp4">
           </video>
         </button>
         <section class "media-card-info">
@@ -29,7 +29,7 @@ export function mediaFactory(data) {
       article.innerHTML = `
         <button class="media-card-button" aria-label="Bouton d'ouverture de lightbox">
           <a href="${url}" target="blank">
-            <img class="media-card-img" src="assets/images/${serieId}/${image}" alt="${title}">
+            <img class="media-card-img" src="data/media/${serieId}/${image}" alt="${title}">
           </a>
         </button>
         <section class="media-card-info">
