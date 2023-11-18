@@ -27,7 +27,7 @@
   <script type="module" src="scripts/pages/index.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
+      navigator.serviceWorker.register('/stream.live/service-worker.js')
         .then(registration => {
           console.log('Service Worker enregistré avec succès:', registration);
         })
