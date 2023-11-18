@@ -107,6 +107,9 @@ main {
 #download-container {
   display: flex;
 }
+#install-button {
+  display: none;
+}
 dialog {
   border: none;
 }
