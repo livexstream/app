@@ -2,7 +2,7 @@
     "name": "Stream",
     "short_name": "Stream",
     "description": "Actualités Séries streaming",
-    "start_url": "/index.html",
+    "start_url": "/stream.live/index.html",
     "display": "standalone",
     "background_color": "#000",
     "theme_color": "#7B3FFF",
