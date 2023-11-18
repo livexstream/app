@@ -61,3 +61,35 @@ async function renderSerieProfiles() {
 
 // Rendu de tous les profils de photographe
 renderSerieProfiles();
+
+// Gestion de l'installation (PWA)
+function installerApp() {
+  if ('serviceWorker' in navigator && 'PushManager' in window) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.pushManager.getSubscription().then(subscription => {
+        if (!subscription) {
+          // Demander la permission de notification
+          Notification.requestPermission().then(permission => {
+            if (permission === 'granted') {
+              // Afficher la notification d'installation
+              registration.showNotification('Installer l\'application ?', {
+                body: 'Ajoutez cette application à votre écran d\'accueil pour un accès rapide.',
+                icon: '/app/assets/icons/icon.png',
+                tag: 'install-prompt',
+                actions: [{ action: 'install', title: 'Installer' }, { action: 'dismiss', title: 'Plus tard' }]
+              });
+            }
+          });
+        }
+      });
+    });
+  }
+}
+
+// Ajoutez un événement click pour déclencher l'installation
+document.addEventListener('click', (event) => {
+  const target = event.target;
+  if (target.id === 'install-button') {
+    installerApp();
+  }
+});

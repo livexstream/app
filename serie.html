@@ -6,6 +6,7 @@
   <title>Stream - Séries streaming</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Stream - Séries streaming">
+  <link rel="manifest" href="/manifest.json">
   <link rel="icon" type="image/png" href="assets/favicon.ico">
   <link rel="stylesheet" type="text/css" href="css/serie.css">
   <link rel="stylesheet" type="text/css" href="css/modal.css">
@@ -83,6 +84,18 @@
 
 
   <script type="module" src="scripts/pages/serie.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker enregistré avec succès:', registration);
+        })
+        .catch(error => {
+          console.error('Erreur lors de l enregistrement du Service Worker:', error);
+        });
+    }
+  </script>
+  
 </body>
 
 </html>
